@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="layout :: site-head">
+    <title>Spring MVC Blog</title>
+</head>
+
+<body>
+<header th:replace="layout :: site-header" />
+
+<main id="users">
+    <article th:each="p : ${users3}">
+        <!-- <h2 class="id" th:text="${p.id}">User ID</h2> -->
+        <p class="content" th:utext="${p.fullName}">Nombre completo</p>
+        <p class="content" th:utext="${p.username}">Nombre usuario</p>
+    </article>
+</main>
+
+<footer th:replace="layout :: site-footer" />
+</body>
+
+</html>
+
