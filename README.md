@@ -1,4 +1,4 @@
-# Creación de un bloq que contendrá la siguiente información:
+# Creación de un blog que contendrá la siguiente información:
 • Registro de usuario. Del mismo modo, se deberá realizar un login de estos
 usuarios registrados.
 • Añadir entradas al blog.
