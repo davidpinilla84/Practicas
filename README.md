@@ -6,5 +6,5 @@ usuarios registrados.
 • Crear comentarios por cada entrada.
 • Generar un chat. Este chat podrá ser anónimo y entre los distintos usuarios del
 blog.
-Desarrollo basado en frameworks MVC. MySQL como Base de Datos. Para el
-chat se usa la tecnología de websockets.
+Desarrollo basado en frameworks MVC. MySQL como Base de Datos (se adjuntan scripts con la estructura y contenido de las tablas). 
+Para el chat se usa la tecnología de websockets.
